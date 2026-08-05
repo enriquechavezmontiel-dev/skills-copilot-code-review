@@ -4,6 +4,6 @@ applyTo: "*.html,*.css,*.js"
 
 ## Frontend Guidelines
 
-- Use accessibility attributes (alt text, aria labels) and color schemes.
+- Use accessibility attributes (e.g., `alt`, `aria-label`) and ensure sufficient color contrast.
 - Use responsive design for compatibility with mobile devices.
-- Validate HTML structure and semantic elements
+- Validate HTML structure and use semantic elements.
