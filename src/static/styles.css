@@ -787,6 +787,25 @@ footer {
   color: var(--text-secondary);
 }
 
+.close-announcement-modal {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  line-height: 1;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.close-announcement-modal:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 .announcement-modal-content {
   max-width: 980px;
   width: min(96vw, 980px);
